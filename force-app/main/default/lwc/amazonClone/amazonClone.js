@@ -26,7 +26,7 @@ export default class AmazonClone extends LightningElement {
               console.log('result is',result);
             })
             .catch((error)=>{
-                console.log('Error is Change:',error);
+                console.log('Error is Changes:',error);
                 this.isError = true;
                 this.errorMessage = error.body.message;
             })
